@@ -67,11 +67,17 @@ Para generar la cadena xmlA se debe seguir el siguiente procedimiento:
 Formato de la cadena xmla y los datos que la componen:
 
 &lt;xml&gt;
+
          &lt;tpPago&gt;C&lt;/tpPago&gt;
+         
          &lt;amount&gt;0.01&lt;/amount&gt;
-         &lt;urlResponse&gt;https://suitemcommerce.com&lt;/urlResponse&gt;
+         
+         &lt;urlResponse&gt;https://suitemcommerce.com&gt;
+         
          &lt;referencia&gt;NUM_FACTURA&lt;/referencia&gt;
+         
          &lt;moneda&gt;MXN&lt;/moneda&gt;
+         
          &lt;date_hour&gt; 2013-07-10T14:49:24-05:00&lt;date_hour&gt;
 
 
