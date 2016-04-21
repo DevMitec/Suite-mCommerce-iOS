@@ -68,40 +68,46 @@ Formato de la cadena xmla y los datos que la componen:
 
 &lt;xml&gt;
 
-         &lt;tpPago&gt;C&lt;/tpPago&gt;
-         
-         &lt;amount&gt;0.01&lt;/amount&gt;
-         
-         &lt;urlResponse&gt;https://suitemcommerce.com&gt;
-         
-         &lt;referencia&gt;NUM_FACTURA&lt;/referencia&gt;
-         
-         &lt;moneda&gt;MXN&lt;/moneda&gt;
-         
-         &lt;date_hour&gt; 2013-07-10T14:49:24-05:00&lt;date_hour&gt;
+&lt;tpPago&gt;C&lt;/tpPago&gt;
+
+&lt;amount&gt;0.01&lt;/amount&gt;
+
+&lt;urlResponse&gt;https://suitemcommerce.com&gt;
+
+&lt;referencia&gt;NUM_FACTURA&lt;/referencia&gt;
+
+&lt;moneda&gt;MXN&lt;/moneda&gt;
+
+&lt;date_hour&gt; 2013-07-10T14:49:24-05:00&lt;date_hour&gt;
 
 
 **Parametros XMLA
 
 * **tpPago**
+* 
 Establece el tipo de pago con el que se realizará el cargo, ya sea de contado ó meses. 
 
 * Pago de Contado: "C"
 * Pago a MSI: "nM", donde n indica el numero de meses(3,6,9 o 12);
 
 **amount**
+
 Establece el Importe por el que se realizará la solicitud de cargo. El importe deberá enviarse sin comas (en caso de miles), con punto y 2 decimales.
 
 **urlResponse**
+
 Está será por default **https://suitemcommerce.com**
 
 **referencia**
+
 Será la referencia por el motivo de cobro
 
 **moneda**
+
 Establece el tipo de moneda con el que se realizará el cargo, los valores que acepta CENTRO DE PAGOS son "MXN" y "USD". 
 
 **date_hour**
+
 Fecha/Hora actual del servidor del comercio en formato ISO8601. 
 Ejemplo: 
 2013-07-10T14:49:24-05:00
