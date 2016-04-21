@@ -72,7 +72,7 @@ Formato de la cadena xmla y los datos que la componen:
 
 &lt;amount&gt;0.01&lt;/amount&gt;
 
-&lt;urlResponse&gt;https://suitemcommerce.com&gt;
+&lt;urlResponse&gt;https://suitemcommerce.com&lt;/urlResponse&gt;
 
 &lt;referencia&gt;NUM_FACTURA&lt;/referencia&gt;
 
