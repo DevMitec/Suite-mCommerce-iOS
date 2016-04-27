@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		IwjO0iT17U54LtQWzASVNVGlNo8=
+		</data>
 		<key>AuthenticationViewController.nib</key>
 		<data>
 		1199kOdp+hBwifIcmVwEgDBMjdA=
@@ -15,10 +19,6 @@
 		<key>Headers/Bean3DS.h</key>
 		<data>
 		s/cbzX3M03GWyEY3IL1mOfT33yc=
-		</data>
-		<key>Headers/BeanPaymentResponse.h</key>
-		<data>
-		6PM7AhAugX85qCopD6dUWvcwVcg=
 		</data>
 		<key>Headers/BeanPaymentWithToken.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/SuiteController.h</key>
 		<data>
-		B32J3ftw9kjm405EEiK4ZUcq6N4=
+		L+d8AdkQxgqsQRnd7pSi5fZf5mE=
 		</data>
 		<key>Headers/SuiteError.h</key>
 		<data>
@@ -99,10 +99,6 @@
 		<data>
 		s/cbzX3M03GWyEY3IL1mOfT33yc=
 		</data>
-		<key>Headers/BeanPaymentResponse.h</key>
-		<data>
-		6PM7AhAugX85qCopD6dUWvcwVcg=
-		</data>
 		<key>Headers/BeanPaymentWithToken.h</key>
 		<data>
 		7PKciOWpIgTkJvhFgyh7uI2MstQ=
@@ -117,7 +113,7 @@
 		</data>
 		<key>Headers/SuiteController.h</key>
 		<data>
-		B32J3ftw9kjm405EEiK4ZUcq6N4=
+		L+d8AdkQxgqsQRnd7pSi5fZf5mE=
 		</data>
 		<key>Headers/SuiteError.h</key>
 		<data>

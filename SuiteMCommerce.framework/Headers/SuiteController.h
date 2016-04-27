@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "BeanPaymentResponse.h"
 #import "BeanTokenizeResponse.h"
 #import "SuiteError.h"
 #import "BeanTokenization.h"
@@ -16,7 +15,7 @@
 #import "BeanPaymentWithToken.h"
 
 @protocol SuiteControllerDelegate <NSObject>
--(void)didFinishPayProcess:(BeanPaymentResponse*) paymentResponse error:(SuiteError*) error;
+-(void)didFinishPayProcess:(NSString*) response error:(SuiteError*) error;
 -(void)didFinishAuthenticationProcess:(BeanTokenizeResponse*) tokenizeResponse error:(SuiteError*) error;
 -(void)didFinishTokenizeTransantion:(BeanPaymentWithToken*) beanPaymentWithToken error:(SuiteError*) error;
 -(void)operationCanceledByUser;
@@ -51,14 +50,6 @@ typedef enum Currency {
 - (id) initOnEnvironment:(Environment) environment
    currentViewController:(UIViewController *) viewController
                 delegate:(id<SuiteControllerDelegate>) delegate;
-
-/*- (void) sndPayWithCompany:(NSString*) company
-                    amount:(NSString*) amount
-                 reference:(NSString*) reference
-               paymentType:(PaymentType) paymentType
-                  currency:(Currency) currency
-                    apiKey:(NSString*) apiKey
-                      xmlm:(NSString*) xmlm;*/
 
 - (void) sndPayWithCompany:(NSString*) company
                       xmlA:(NSString*) xmlA
