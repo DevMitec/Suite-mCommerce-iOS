@@ -1,7 +1,5 @@
 # Suite-mCommerceMIT-iOS
 
-La API Suite mCommerce - iOS permite...
-
 ## Requerimientos
 La Suite mCommerce es compatible con apps para iOS 7.0 o superior.
 
