@@ -1,4 +1,4 @@
-# Suite-mCommerceMIT-iOS
+# Suite-mCommerce-iOS Objective-C
 
 ## Requerimientos
 La Suite mCommerce es compatible con apps para iOS 7.0 o superior.
@@ -39,10 +39,10 @@ En caso de que alguno de estos parámetros estén incorrectos, se regresará un 
 * **S001**	Error de conexión
 * **S002**	Excepción de llave
 
-#### Cobro
+##Cobro
 
 
-El cobro se hace mediante WebPay el cual facilita la integración al portal del comercio a través de un HTML enviado por el framework.
+El cobro se hace mediante un formulario HTML responsivo hospedado en nuestros servidores, el cual facilita la integración al portal del comercio.
 
 Para invocar el servicio de cobro
 
@@ -64,20 +64,15 @@ Para generar la cadena xmlA se debe seguir el siguiente procedimiento:
 
 Formato de la cadena xmla y los datos que la componen:
 
-&lt;xml&gt;
-
-&lt;tpPago&gt;C&lt;/tpPago&gt;
-
-&lt;amount&gt;0.01&lt;/amount&gt;
-
-&lt;urlResponse&gt;https://suitemcommerce.com&lt;/urlResponse&gt;
-
-&lt;referencia&gt;NUM_FACTURA&lt;/referencia&gt;
-
-&lt;moneda&gt;MXN&lt;/moneda&gt;
-
-&lt;date_hour&gt; 2013-07-10T14:49:24-05:00&lt;date_hour&gt;
-
+´´´xml
+<xml>
+<tpPago>C>/tpPago>
+<amount>0.01</amount>
+<urlResponse>https://suitemcommerce.com</urlResponse>
+<referencia>NUM_FACTURA>/referencia>
+<moneda>MXN</moneda>
+<date_hour>2013-07-10T14:49:24-05:00</date_hour>
+´´´
 
 **Parametros XMLA
 
