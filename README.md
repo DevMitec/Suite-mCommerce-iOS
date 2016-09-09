@@ -52,10 +52,9 @@ Para invocar el servicio de cobro
 
 Donde:
 
-* **company**: es el ID de la compañía de CDP.
+* **company**: es el ID del comercio (proporcionado por MIT).
 * **xmlA**: es la cadena proporcionada por el integrador.
-* **xmlM**: es la cadena única que se le proporciona al comercio.
-* **(NOTA: Estos datos le serán proporcionados por MIT)**
+* **xmlM**: es la cadena única del comercio (proporcionada por MIT).
 
 Para generar la cadena xmlA se debe seguir el siguiente procedimiento:
 
@@ -64,40 +63,35 @@ Para generar la cadena xmlA se debe seguir el siguiente procedimiento:
 
 Formato de la cadena xmla y los datos que la componen:
 
-´´´xml
+```xml
 <xml>
-<tpPago>C>/tpPago>
+<tpPago>C</tpPago>
 <amount>0.01</amount>
 <urlResponse>https://suitemcommerce.com</urlResponse>
-<referencia>NUM_FACTURA>/referencia>
+<referencia>NUM_FACTURA</referencia>
 <moneda>MXN</moneda>
 <date_hour>2013-07-10T14:49:24-05:00</date_hour>
-´´´
+```
 
-**Parametros XMLA
+###Parametros XMLA
 
-* **tpPago**
-* 
+**tpPago**
 Establece el tipo de pago con el que se realizará el cargo, ya sea de contado ó meses. 
-
 * Pago de Contado: "C"
 * Pago a MSI: "nM", donde n indica el numero de meses(3,6,9 o 12);
 
 **amount**
-
 Establece el Importe por el que se realizará la solicitud de cargo. El importe deberá enviarse sin comas (en caso de miles), con punto y 2 decimales.
 
 **urlResponse**
-
 Está será por default **https://suitemcommerce.com**
 
 **referencia**
-
-Será la referencia por el motivo de cobro
+Será la referencia propia del comercio por el motivo de cobro, por ejemplo número de pedido o número de contrato.
 
 **moneda**
 
-Establece el tipo de moneda con el que se realizará el cargo, los valores que acepta CENTRO DE PAGOS son "MXN" y "USD". 
+Establece el tipo de moneda con el que se realizará el cargo, los valores que acepta son "MXN" y "USD". 
 
 **date_hour**
 
@@ -105,11 +99,12 @@ Fecha/Hora actual del servidor del comercio en formato ISO8601.
 Ejemplo: 
 2013-07-10T14:49:24-05:00
 
+### Respuesta
 El delegado que responde a esta función es `-(void)didFinishPayProcess:(NSString*) response error:(SuiteError*) error;`
 
 Donde en caso de que la transacción sea exitosa la información de cobro vendrá en el parámetro `response` y el objeto `suiteError` vendrá nulo.
 
-> **La respuesta tendrá que ser descifrada con la llave que se encripta el xml.**
+> **La respuesta tendrá que ser descifrada con la llave que se encripta el xmla.**
 
 La respuesta encriptada es un xml con los siguientes tags:
 
@@ -128,7 +123,7 @@ En caso de que haya un error, `response` vendrá nulo y el objeto `suiteError` t
 * **P002**	XMLA invalido
 * **P003**	XMLM invalido
 
-#### Autenticación
+### Autenticación
 
 Para invocar el servicio de autenticación
 
@@ -188,7 +183,7 @@ Caso contrario la descripción de porque no se realizó la autenticación vendr�
 * **A009**	Compañía invalida
 * **A010**	Autenticación fallida
 
-#### Cobro con Token
+### Cobro con Token
 
 Para invocar el servicio de cobro
 
