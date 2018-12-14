@@ -51,9 +51,6 @@ typedef enum Currency {
    currentViewController:(UIViewController *) viewController
                 delegate:(id<SuiteControllerDelegate>) delegate;
 
-- (void) sndPayWithCompany:(NSString*) company
-                      xmlA:(NSString*) xmlA
-                      xmlM:(NSString*) xmlM;
 
 - (void) AuthenticateWithBeanTokenization:(BeanTokenization*) beanTokenization
                                   bean3DS:(Bean3DS*) bean3DS;
