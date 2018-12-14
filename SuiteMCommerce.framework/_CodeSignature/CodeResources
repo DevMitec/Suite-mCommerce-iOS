@@ -6,11 +6,7 @@
 	<dict>
 		<key>AuthenticationViewController.nib</key>
 		<data>
-		NSf5P3utpgq9fWuXKG9SFH72mkk=
-		</data>
-		<key>BSKeyboardControls.strings</key>
-		<data>
-		3T6lLKBgUsH2gnMl/56PDAjwFyE=
+		FsZGHqXkUyJyQtV09WBgtMcvg/0=
 		</data>
 		<key>Headers/Bean3DS.h</key>
 		<data>
@@ -30,7 +26,7 @@
 		</data>
 		<key>Headers/SuiteController.h</key>
 		<data>
-		L+d8AdkQxgqsQRnd7pSi5fZf5mE=
+		qH/sPC2tCxeS/QxovygI19BbdWk=
 		</data>
 		<key>Headers/SuiteError.h</key>
 		<data>
@@ -42,15 +38,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wWVDZsUVztumsy+2WI99Bq0uzwg=
+		61W/pIyS21h85pslir8e7RQUq+8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		5+f5O1aH9F0/Jx8MJDpzR52nmGs=
-		</data>
-		<key>WebPayViewController.nib</key>
-		<data>
-		zN3+X397IjJzglqp3EybvQQoElQ=
 		</data>
 		<key>back.png</key>
 		<data>
@@ -68,6 +60,15 @@
 		<data>
 		fioE3RmRJ3aij+TmHypyOwDv83I=
 		</data>
+		<key>en.lproj/BSKeyboardControls.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LOBTktohmCIvO73fYmYFS9kr0mU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>left.png</key>
 		<data>
 		cDLiB3LrDOfq+yZFyuH+msINy+A=
@@ -87,22 +88,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NSf5P3utpgq9fWuXKG9SFH72mkk=
+			FsZGHqXkUyJyQtV09WBgtMcvg/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			TmGf4n2LzBK7qUBmMruMb2E0c1n1Qu4jv1YMc/Dx1i0=
-			</data>
-		</dict>
-		<key>BSKeyboardControls.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3T6lLKBgUsH2gnMl/56PDAjwFyE=
-			</data>
-			<key>hash2</key>
-			<data>
-			maAT69byLT0NwrGfh+zEoXXJjLoP+8nZy+IOboXkIgg=
+			fxksJKiF2JkGuz7j2XkjFOWBEP6/BOP0NndvEC6OnAs=
 			</data>
 		</dict>
 		<key>Headers/Bean3DS.h</key>
@@ -153,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L+d8AdkQxgqsQRnd7pSi5fZf5mE=
+			qH/sPC2tCxeS/QxovygI19BbdWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			eEyyXBIo5l7QGMurN1lfwd69oupVeeKLeWq3iQe+eu4=
+			WtaN9VdckpJpaBIhuWb+1mIE8RahN5wrCBcApL5Vy7o=
 			</data>
 		</dict>
 		<key>Headers/SuiteError.h</key>
@@ -191,17 +181,6 @@
 			<key>hash2</key>
 			<data>
 			YMqjmex58BGq0iQDf5rJrd8+OozKZ63u7a4hoOGmAik=
-			</data>
-		</dict>
-		<key>WebPayViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zN3+X397IjJzglqp3EybvQQoElQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			rD2TNn1psO6Eic1N2Txc5bfzzPvk8bZNIYdeassyEVE=
 			</data>
 		</dict>
 		<key>back.png</key>
@@ -248,6 +227,19 @@
 			2i+Id0v/N6Mv3IBigLf9xI7Xw85GKmFVVsolFAx4pis=
 			</data>
 		</dict>
+		<key>en.lproj/BSKeyboardControls.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LOBTktohmCIvO73fYmYFS9kr0mU=
+			</data>
+			<key>hash2</key>
+			<data>
+			6GI1KUpDj3OUPCuJ+LUXWqXoQPQyrU+sapF8jN/jnOY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>left.png</key>
 		<dict>
 			<key>hash</key>
@@ -284,7 +276,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -300,6 +292,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -310,24 +307,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -345,6 +330,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
 			<key>omit</key>
@@ -358,13 +348,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
