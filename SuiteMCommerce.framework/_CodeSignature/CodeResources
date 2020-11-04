@@ -6,15 +6,11 @@
 	<dict>
 		<key>AuthenticationViewController.nib/objects-11.0+.nib</key>
 		<data>
-		NJXhNiDTrb+yhKO0PkcjIzvOsj0=
-		</data>
-		<key>AuthenticationViewController.nib/objects-13.0+.nib</key>
-		<data>
-		cEB63mJCx8E6Kqd/pG7+qwGvDm4=
+		tQqhja5fGfOsN5tITYyDml+yuqI=
 		</data>
 		<key>AuthenticationViewController.nib/runtime.nib</key>
 		<data>
-		VmKA56uj+uA5VuzDF5k5xf1iJU4=
+		EC0i3JtUzaDWuhEPPkFKDPOpeyk=
 		</data>
 		<key>Headers/Bean3DS.h</key>
 		<data>
@@ -46,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ec97kpSqoQk6UfR69z3armVd1XE=
+		y1WQCNchPk4rYBE9zZOHzhnXWbw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,33 +92,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NJXhNiDTrb+yhKO0PkcjIzvOsj0=
+			tQqhja5fGfOsN5tITYyDml+yuqI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6gVxtok+bH1PR6HgFIHvbzYwcOkY4a6dckQYjM/KWLs=
-			</data>
-		</dict>
-		<key>AuthenticationViewController.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cEB63mJCx8E6Kqd/pG7+qwGvDm4=
-			</data>
-			<key>hash2</key>
-			<data>
-			7SpVxEtZJYBjONAJHbeFBeCY8jE15hk58Yw+mvQnyNw=
+			uX4AcvJnG3MhWStNwmJt7zfDJKwsEnrJXcgPd5wmsB8=
 			</data>
 		</dict>
 		<key>AuthenticationViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VmKA56uj+uA5VuzDF5k5xf1iJU4=
+			EC0i3JtUzaDWuhEPPkFKDPOpeyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			DmP1y/NguSI0EeUn/YSWCSv8qiy4AgruQE4+955bIpY=
+			HW923exS6EfpwxshANhE6NSboh18yIZ5cx4y4wzMUf0=
 			</data>
 		</dict>
 		<key>Headers/Bean3DS.h</key>
