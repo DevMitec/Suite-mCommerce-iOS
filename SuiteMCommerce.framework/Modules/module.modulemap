@@ -1,0 +1,6 @@
+framework module SuiteMCommerce {
+  umbrella header "SuiteMCommerce.h"
+
+  export *
+  module * { export * }
+}
